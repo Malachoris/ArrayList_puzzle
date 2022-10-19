@@ -19,17 +19,18 @@ public class Jukebox5{
 		songSet.addAll(songList);
 		System.out.println(songSet);
 
-		//Set<SongV3> songSet = new HashSet<>(songList); //HashSet has a constructor to  take made list and work with items in it.
-		//System.out.println(songSet);
+		/*Set<SongV3> songSet = new HashSet<>(songList); //HashSet has a constructor to  take made list and work with items in it.
+		System.out.println(songSet);
 
-		//songList.sort((one, two) -> one.getArtist().compareTo(two.getArtist()));
-	//	System.out.println(songList);
+		songList.sort((one, two) -> one.getArtist().compareTo(two.getArtist()));
+		System.out.println(songList);
 
-		//songList.sort((one, two) -> one.getBpm() - two.getBpm());
-		//System.out.println(songList);	// different syntax, why? 
+		songList.sort((one, two) -> one.getBpm() - two.getBpm());
+		System.out.println(songList);	// different syntax, why? 
 
-		//songList.sort((one, two) -> two.getTitle().compareTo(one.getTitle()));
-		//System.out.println(songList);	// decending order two - one
+		songList.sort((one, two) -> two.getTitle().compareTo(one.getTitle()));
+		System.out.println(songList);	// decending order two - one
+		*/
 	}
 }
 
